@@ -1,0 +1,164 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+
+.container{
+    flex: 1;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.f-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.f-info-socials {
+  display: flex;
+  gap: 15px;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  color: #495057;
+  transition: color 0.3s ease-in-out;
+}
+
+.f-info-socials i:hover {
+  color: #007bff;
+}
+
+.f-info-brand {
+  margin-bottom: 5px;
+}
+
+.f-info-links a {
+  color: #6c757d;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.f-info-links a:hover {
+  color: #007bff;
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 600px) {
+  .f-info-links a {
+    margin: 0 5px;
+  }
+}
+
+
+/* Index style */
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: width !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+    flex-grow: 1;
+}
+    
+
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+
+/* Card Effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color:white;
+}
+
+/* New page */
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit page */
+
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show page */
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.show-img{
+    height: 400px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 1rem !important;
+}
+
+
